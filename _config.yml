@@ -4,7 +4,7 @@ SEOTitle: C+++ IDE | Lightweight, modern C++ IDE for macOS
 header-img: img/home-bg.png
 description: "A lightweight and modern C++ IDE on macOS Platform"
 keyword: "23786, macOS, Cocoa, C++ IDE, C+++ IDE, C+++, macOS C++, IDE"
-url: "http://www.nsobjectzyx.tk"          # your host, for absolute URL
+url: "http://www.cpppide.ml"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/23786/Cppp-IDE-Website.git" # you code repository
 
@@ -69,7 +69,7 @@ ba_track_id: b50bf2b12b5338a1845e33832976fd68
 
 # Google Analytics
 ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-ga_domain: www.nsobjectzyx.tk               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+ga_domain: www.cpppide.ml             # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 

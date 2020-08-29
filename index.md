@@ -1,6 +1,6 @@
 ---
 layout: page
-description: "Welcome to visit my blog."
+description: "A lightweight, modern C++ IDE on macOS Platform"
 ---
 
 ## **<font color = "#000000">C+++ IDE 2.1.0</font>**
