@@ -3,6 +3,8 @@ layout: page
 description: "A lightweight, modern C++ IDE on macOS Platform"
 ---
 
+<div class="post-container">
+
 ## **<font color = "#000000">C+++ IDE 2.1.0</font>**
 # **<font color = "#000000">A lightweight and modern C++ IDE on macOS Platform</font>**
 ## Developed by a Grade-Six (now seven) student _23786_.
@@ -85,3 +87,5 @@ Code Snippet is a small portion of re-usable source code. They allow you to avoi
 ----
 
 # **<font color="#2159A3">We are working hard to make C+++ better, and hope you like it.</font>**
+
+</div>
