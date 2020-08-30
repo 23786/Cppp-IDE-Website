@@ -12,7 +12,7 @@ header-img: "img/post-bg-debug.jpg"
 </select> -->
 
 <!-- Chinese Version -->
-<div class="zh post-container">
+<div class="post-container">
 
     <blockquote><p>Thanks for visiting this site!</p></blockquote>
 
@@ -32,66 +32,6 @@ header-img: "img/post-bg-debug.jpg"
     </ul>
 
 </div>
-
-<!-- English Version -->
-<!--<div class="en post-container">
-    <blockquote><p>Thanks for visiting this site!</p></blockquote>
-
-    <p>C+++ is an open-source C++ IDE on macOS Platform for OI learners to use. It supports Dark Mode and Touch Bar. You needn’t create a Xcode project to compile C++ file or compile a C++ file using the g++ command in the Terminal, all works are done in the C+++ App.</p>
-
-    <p>C+++ is Developed by <a href="https://github.com/23786">me</a>. I am a student from <strong>Shanghai Huayu Private Middle School, class 7 of 2023</strong>. I love macOS Developing.</p>
-
-    <p>My Personal Blog Website: <br><a href="http://www.nsobjectzyx.tk">Click Here</a>.</p>
-
-    <p>This page is build with GitHub Pages and Jekyll.</p>
-    
-    <h5>Special thanks to all the supporters: </h5>
-
-    <ul>
-        <li><a href="https://ericnth.cn/">EricNTH</a></li>
-        <li><a href="https://www.luogu.com.cn/user/351320">zxh23682</a></li>
-    </ul>
-</div> -->
-
-<!-- Handle Language Change -->
-<script type="text/javascript">
-    // get nodes
-    var $zh = document.querySelector(".zh");
-    var $en = document.querySelector(".en");
-    var $select = document.querySelector("select");
-
-    // bind hashchange event
-    window.addEventListener('hashchange', _render);
-
-    // handle render
-    function _render(){
-        var _hash = window.location.hash;
-        // en
-        if(_hash == "#en"){
-            $select.selectedIndex = 1;
-            $en.style.display = "block";
-            $zh.style.display = "none";
-        // zh by default
-        }else{
-            // not trigger onChange, otherwise cause a loop call.
-            $select.selectedIndex = 0;
-            $zh.style.display = "block";
-            $en.style.display = "none";
-        }
-    }
-
-    // handle select change
-    function onLanChange(index){
-        if(index == 0){
-            window.location.hash = "#zh"
-        }else{
-            window.location.hash = "#en"
-        }
-    }
-
-    // init
-    _render();
-</script>
 
 
 <!-- Gitalk 评论 start  -->
