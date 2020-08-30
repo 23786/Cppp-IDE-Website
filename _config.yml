@@ -11,7 +11,6 @@ github_repo: "https://github.com/23786/Cppp-IDE-Website.git" # you code reposito
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "C+++ IDE"
-sidebar-avatar: /img/github-avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -89,4 +88,16 @@ service-worker: true
 
 # Friends
 friends: [
+]
+
+# Notifications
+# 显示在右边栏上
+recent-notifications: [
+  {
+    title: "C+++ 2.1.1 will be released soon"
+    href: "http://cpppide.ml/download/"
+  },{
+    title: "New C+++ Website"
+    href: "http://cpppide.ml/"
+  }
 ]
