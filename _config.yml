@@ -93,11 +93,11 @@ friends: [
 # Notifications
 # 显示在右边栏上
 recent-notifications: [
-  {
-    title: "C+++ 2.1.1 will be released soon",
-    href: "http://cpppide.ml/download/"
-  },{
-    title: "New C+++ Website",
-    href: "http://cpppide.ml/"
-  }
+ {
+  title: "C+++ 2.1.1 will be released soon",
+  href: "http://cpppide.ml/download/"
+ },{
+  title: "New C+++ Website",
+  href: "http://cpppide.ml/"
+ }
 ]
