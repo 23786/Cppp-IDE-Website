@@ -1,0 +1,110 @@
+---
+layout: page
+title: "Update Log"
+description: "The update log of the application will be shown here."
+header-img: "img/colorful-bg.jpg"
+---
+
+<!-- Chinese Version -->
+<div class="post-container">
+            
+    <blockquote class="wp-block-quote"><p>The update log of the application will be shown here.</p><cite>Latest Version: v2.1.1.</cite></blockquote>
+
+    <h3 id="20208-version-211-209201">2020.9 Version 2.1.1 (209201)</h3>
+
+    <ul><li>Minimap</li><li>Totally redesigned Project Management</li><li>Totally redesigned Debug Area</li><li>More Effective Code Completion</li><li>Improved Line Number Drawing</li><li>Quicker Syntax Highlighting</li><li>Search for Anything</li><li>Much more Stable</li><li>Bug Fixes and Improvements</li></ul>
+
+    <h3 id="20207-version-210-207210">2020.7 Version 2.1.0 (207210)</h3>
+
+    <ul><li>Adapt macOS 11.0 Big Sur</li><li>New User Interface</li><li>More Stable</li><li>Add code completion and realtime diagnostic</li><li>Bug Fixes and Improvements</li></ul>
+
+    <h3 id="20206-version-202-206202">2020.6 Version 2.0.2 (206202)</h3>
+
+    <ul><li>Add Check Update Function</li><li>Support Code Font Customizing</li><li>Mark Error Lines after Compiling</li><li>Bug Fixes and Improvements</li></ul>
+
+    <h3 id="20206-version-201-206201">2020.6 Version 2.0.1 (206201)</h3>
+
+    <ul><li>Support “” and ‘’ Completion</li><li>Add Launch View</li><li>Support Creating a Project Directly</li><li>Add TEST Function</li><li>Small UI Changes</li><li>Much More Stable</li><li>Revert the Line Number Feature</li><li>Bug Fixes and Improvements</li></ul>
+
+    <h3 id="20205-version-200-205200">2020.5 Version 2.0.0 (205200)</h3>
+
+    <ul><li>Great changes have taken place. Discover them youselves!</li></ul>
+
+    <h3 id="20204-version-110-204110">2020.4 Version 1.1.0 (204110)</h3>
+
+    <ul><li>Persist Settings Data</li><li>Choose Compiler (g++, gcc, clang)</li><li>More highlight themes and fonts</li><li>Improvements</li><li>UI Changes</li><li>Show line number on the left of the text view</li><li>Show status bar on the bottom of the text view</li><li>Fix almost twenty bugs</li></ul>
+
+    <h3 id="20204-version-101-204101">2020.4 Version 1.0.1 (204101)</h3>
+
+    <ul><li>Add “Settings”</li><li>Add “Help”</li><li>UI update</li><li>Supports .h and .c file</li><li>More code templates</li></ul>
+
+    <h3 id="20203-version-100-203100">2020.3 Version 1.0.0 (203100)</h3>
+
+    <ul><li>Publish</li></ul>
+
+    <h3 id="20203-version-093-203093">2020.3 Version 0.9.3 (203093)</h3>
+
+    <ul><li>Solve the dylib problem</li><li>Open the exec file in Terminal</li><li>Bug fixing</li></ul>
+
+    <h3 id="20203-version-092-203092">2020.3 Version 0.9.2 (203092)</h3>
+
+    <ul><li>Code Template</li><li>Dark Mode and Touch Bar</li><li>Improve the code-editing experience</li></ul>
+
+    <h3 id="20203-version-091-203091">2020.3 Version 0.9.1 (203091)</h3>
+
+    <ul><li>Code Highlight</li><li>Update UI</li></ul>
+
+    <h3 id="20203-version-090-203090">2020.3 Version 0.9.0 (203090)</h3>
+
+    <ul><li>Create the Project</li><li>Add Compiling Function</li></ul>
+
+</div>
+
+
+<!-- Gitalk 评论 start  -->
+{% if site.gitalk.enable %}
+<!-- Gitalk link  -->
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+    <script type="text/javascript">
+    var gitalk = new Gitalk({
+    clientID: '{{site.gitalk.clientID}}',
+    clientSecret: '{{site.gitalk.clientSecret}}',
+    repo: '{{site.gitalk.repo}}',
+    owner: '{{site.gitalk.owner}}',
+    admin: ['{{site.gitalk.admin}}'],
+    distractionFreeMode: {{site.gitalk.distractionFreeMode}},
+    id: 'about',
+    });
+    gitalk.render('gitalk-container');
+</script>
+{% endif %}
+<!-- Gitalk end -->
+
+ <!-- disqus 评论框 start  -->
+{% if site.disqus.enable %}
+
+<div class="comment">
+    <div id="disqus_thread" class="disqus-thread">
+    </div>
+</div>
+<!-- disqus 评论框 end -->
+
+<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = "{{site.disqus.username}}";
+    var disqus_identifier = "{{site.disqus.username}}/{{page.url}}";
+    var disqus_url = "{{site.url}}{{page.url}}";
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<!-- disqus 公共JS代码 end -->
+{% endif %}
+
