@@ -89,15 +89,13 @@ service-worker: true
 # Friends
 friends: [
   {
-    name: "EricNTH",
+    title: "EricNTH",
     href: "https://ericnth.cn/"
-  },
-  {
-    name: "zxh13682",
+  },{
+    title: "zxh13682",
     href: "https://www.luogu.com.cn/user/351320"
-  },
-  {
-    name: "qyh1206",
+  },{
+    title: "qyh1206",
     href: "http://qyh1206.cn"
   }
 ]
